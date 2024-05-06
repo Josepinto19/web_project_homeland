@@ -1,0 +1,1248 @@
+@media screen and (min-width: 1280px){
+.places{
+    width:77.2%;
+    min-height:4098px;
+    padding-top:92px;
+    padding-left:11.32%;
+    justify-content: space-between;
+    row-gap: 80px;
+    display: flex;
+    flex-direction: column;
+    
+    gap: 80px;
+}
+.places__place__kiev{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 35px;
+    width: 99.69%;
+    height: 18.44%;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin: 0%;
+    padding: 0%;
+}
+    .places__place__kiev-img{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 48px;
+    }
+    .places__place__kiev-title{
+        Width:460px;
+        Height:152px;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 900;
+        font-style: normal;
+        font-variation-settings:
+        "slnt" 0;
+        font-size:72px;
+        Line-height:76px;
+        margin: 0%;
+        padding: 0%;
+    }
+    .places__place__kiev__website{
+        padding-top: 107px;
+        padding-bottom: 48px;
+        width: 456px;
+        height: 45px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .places__place__kiev__paragraphs{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 25px;
+    }
+
+    .places__place__kiev__paragraphs-item{
+        width: 484px;
+        max-width: 232;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-variation-settings:
+        "slnt" 0;
+        font-size: 18px;
+        line-height: 29.34px;
+        margin: 0%;
+    }
+    .places__place__kiev__website__url-heading{
+        line-height: 14.52px;
+        font-size: 12px;
+        letter-spacing: 12%;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-variation-settings:
+        "slnt" 0;
+        margin: 0%;
+        color: #AAAAAA;
+    }
+    .places__place__kiev__website__artist{
+        font-size: 18px;
+        line-height: 22px;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-variation-settings:
+        "slnt" 0;
+        margin: 0%;
+    }
+    .places__place__kiev__image{
+        Width:460px;
+        max-Height:460px;
+    }
+    .places__place__kiev__button{
+        width: 355px;
+        height:48px;
+        padding:13px 20px 13px 20px;
+        border-radius: 4px;
+        margin: 0%;
+        background-color: #0278FE;
+        font-size:18px;
+        Line-height:21.78px;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        font-variation-settings:
+        "slnt" 0;
+        color: #ffffff;
+        text-align: left;
+    }
+    .places__place__kiev__button__paragraph{
+        font-size:18px;
+        Line-height:21.78px;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        font-variation-settings:
+        "slnt" 0;
+        margin: 0%;
+        padding: 0%;
+        color: #ffffff;
+        width:hug(315px) ;
+        height: hug(22px);
+        text-align: left;
+        
+    }
+
+
+.places__place-Criccieth{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 35px;
+    width: 99.69%;
+    height: 18.44%;
+    display: flex;
+    justify-content: space-between;
+}
+    .places__place__Criccieth-img{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 48px;
+    }
+    .places__place__Criccieth-title{
+        Width:460px;
+        Height:152px;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 900;
+        font-style: normal;
+        font-variation-settings:
+        "slnt" 0;
+        font-size:72px;
+        Line-height:76px;
+        margin: 0%;
+        padding: 0%;
+    }
+    .places__place__Criccieth__website{
+        padding-top: 85px;
+        padding-bottom: 48px;
+        width: 456px;
+        height: 67px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .places__place__Criccieth__paragraphs{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 25px;
+    }
+
+    .places__place__Criccieth__paragraphs-item{
+        width: 484px;
+        max-width: 232;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-variation-settings:
+        "slnt" 0;
+        font-size: 18px;
+        line-height: 29.34px;
+        margin: 0%;
+    }
+    .places__place__Criccieth__website__url-heading{
+        line-height: 14.52px;
+        font-size: 12px;
+        letter-spacing: 12%;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-variation-settings:
+        "slnt" 0;
+        margin: 0%;
+        color: #AAAAAA;
+    }
+    .places__place__Criccieth__website__artist{
+        font-size: 18px;
+        line-height: 22px;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-variation-settings:
+        "slnt" 0;
+        margin: 0%;
+    }
+    .places__place__Criccieth__image{
+        Width:460px;
+        max-Height:460px;
+    }
+    .places__place__Criccieth__button{
+        width: 355px;
+        height:48px;
+        padding:13px 20px 13px 20px;
+        border-radius: 4px;
+        margin: 0%;
+        background-color: #0278FE;
+        font-size:18px;
+        Line-height:21.78px;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        font-variation-settings:
+        "slnt" 0;
+        color: #ffffff;
+        text-align: left;
+    }
+    .places__place__Criccieth__button__paragraph{
+        font-size:18px;
+        Line-height:21.78px;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        font-variation-settings:
+        "slnt" 0;
+        margin: 0%;
+        padding: 0%;
+        color: #ffffff;
+        width:hug(315px) ;
+        height: hug(22px);
+        text-align: left;
+        
+    }
+.places__place-Berea{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 35px;
+    width: 99.69%;
+    height: 17.69%;
+    display: flex;
+    justify-content: space-between;
+}
+    .places__place__Berea-img{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 48px;
+    }
+    .places__place__Berea-title{
+        Width: 584px;
+        Height:152px;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 900;
+        font-style: normal;
+        font-variation-settings:
+        "slnt" 0;
+        font-size:72px;
+        Line-height:76px;
+        margin: 0%;
+        padding: 0%;
+        margin-right: -100px;
+    }
+    .places__place__Berea__website{
+        padding-top: 107px;
+        padding-bottom: 48px;
+        width: 456px;
+        height: 45px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .places__place__Berea__paragraphs{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 25px;
+    }
+
+    .places__place__Berea__paragraphs-item{
+        min-width: 484px;
+        max-width: 232;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-variation-settings:
+        "slnt" 0;
+        font-size: 18px;
+        line-height: 29.34px;
+        margin: 0%;
+    }
+    .places__place__Berea__website__url-heading{
+        line-height: 14.52px;
+        font-size: 12px;
+        letter-spacing: 12%;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-variation-settings:
+        "slnt" 0;
+        margin: 0%;
+        color: #AAAAAA;
+    }
+    .places__place__Berea__website__artist{
+        font-size: 18px;
+        line-height: 22px;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-variation-settings:
+        "slnt" 0;
+        margin: 0%;
+    }
+    .places__place__Berea__image{
+        Width:460px;
+        max-Height:460px;
+    }
+    .places__place__Berea__button{
+        width: 355px;
+        height:48px;
+        padding:13px 20px 13px 20px;
+        border-radius: 4px;
+        margin: 0%;
+        background-color: #0278FE;
+        font-size:18px;
+        Line-height:21.78px;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        font-variation-settings:
+        "slnt" 0;
+        color: #ffffff;
+        text-align: left;
+    }
+    .places__place__Berea__button__paragraph{
+        font-size:18px;
+        Line-height:21.78px;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        font-variation-settings:
+        "slnt" 0;
+        margin: 0%;
+        padding: 0%;
+        color: #ffffff;
+        width:hug(315px) ;
+        height: hug(22px);
+        text-align: left;
+        
+    }
+.places__place-Muramvya{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 35px;
+    width: 99.69%;
+    height: 20.97%;
+    display: flex;
+    justify-content: space-between;
+}
+    .places__place__Muramvya-img{
+
+    }
+    .places__place__Muramvya-title{
+        Width:460px;
+        Height:152px;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 900;
+        font-style: normal;
+        font-variation-settings:
+        "slnt" 0;
+        font-size:72px;
+        Line-height:76px;
+        margin: 0%;
+        padding: 0%;
+        padding-bottom: 48px;
+    }
+    .places__place__Muramvya__website{
+        padding-top: 107px;
+        padding-bottom: 48px;
+        width: 456px;
+        height: 45px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .places__place__Muramvya__paragraphs{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 25px;
+    }
+
+    .places__place__Muramvya__paragraphs-item{
+        width: 484px;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-variation-settings:
+        "slnt" 0;
+        font-size: 18px;
+        line-height: 29.34px;
+        margin: 0%;
+    }
+    .places__place__Muramvya__website__url-heading{
+        line-height: 14.52px;
+        font-size: 12px;
+        letter-spacing: 12%;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-variation-settings:
+        "slnt" 0;
+        margin: 0%;
+        color: #AAAAAA;
+    }
+    .places__place__Muramvya__website__artist{
+        font-size: 18px;
+        line-height: 22px;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-variation-settings:
+        "slnt" 0;
+        margin: 0%;
+    }
+    .places__place__Muramvya__image{
+        Width:460px;
+        max-Height:460px;
+        padding-bottom: 48px;
+    }
+    .places__place__Muramvya__button{
+        width: 355px;
+        height:48px;
+        padding:13px 20px 13px 20px;
+        border-radius: 4px;
+        margin: 0%;
+        background-color: #0278FE;
+        font-size:18px;
+        Line-height:21.78px;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        font-variation-settings:
+        "slnt" 0;
+        color: #ffffff;
+        text-align: left;
+    }
+    .places__place__Muramvya__button__paragraph{
+        font-size:18px;
+        Line-height:21.78px;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        font-variation-settings:
+        "slnt" 0;
+        margin: 0%;
+        padding: 0%;
+        color: #ffffff;
+        width:hug(315px) ;
+        height: hug(22px);
+        text-align: left;
+        
+    }
+
+.places__place-Piedecuesta{
+    display: flex;
+    flex-direction: row;
+    width: 99.69%;
+    height: 17.69%;
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+}
+    .places__place__Piedecuesta-img{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 48px;
+    }
+    .places__place__Piedecuesta-title{
+        Width:460px;
+        Height:152px;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 900;
+        font-style: normal;
+        font-variation-settings:
+        "slnt" 0;
+        font-size:72px;
+        Line-height:76px;
+        margin: 0%;
+        padding: 0%;
+    }
+    .places__place__Piedecuesta__website{
+        padding-top: 107px;
+        padding-bottom: 48px;
+        width: 456px;
+        height: 45px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .places__place__Piedecuesta__paragraphs{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 25px;
+    }
+
+    .places__place__Piedecuesta__paragraphs-item{
+        width: 484px;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-variation-settings:
+        "slnt" 0;
+        font-size: 18px;
+        line-height: 29.34px;
+        margin: 0%;
+    }
+    .places__place__Piedecuesta__website__url-heading{
+        line-height: 14.52px;
+        font-size: 12px;
+        letter-spacing: 12%;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-variation-settings:
+        "slnt" 0;
+        margin: 0%;
+        color: #AAAAAA;
+    }
+    .places__place__Piedecuesta__website__artist{
+        font-size: 18px;
+        line-height: 22px;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-variation-settings:
+        "slnt" 0;
+        margin: 0%;
+    }
+    .places__place__Piedecuesta__image{
+        Width:460px;
+        max-Height:460px;
+    }
+    .places__place__Piedecuesta__button{
+        width: 355px;
+        height:48px;
+        padding:13px 20px 13px 20px;
+        border-radius: 4px;
+        margin: 0%;
+        background-color: #0278FE;
+        font-size:18px;
+        Line-height:21.78px;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        font-variation-settings:
+        "slnt" 0;
+        color: #ffffff;
+        text-align: left;
+    }
+    .places__place__Piedecuesta__button__paragraph{
+        font-size:18px;
+        Line-height:21.78px;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        font-variation-settings:
+        "slnt" 0;
+        margin: 0%;
+        padding: 0%;
+        color: #ffffff;
+        width:hug(315px) ;
+        height: hug(22px);
+        text-align: left;
+        
+    }
+
+    
+}
+@media screen and (max-width: 1280px){
+.places{
+    width:77.2%;
+    min-height:4098px;
+    padding-top:92px;
+    padding-left:11.32%;
+    justify-content: space-between;
+    row-gap: 80px;
+    display: flex;
+    flex-direction: column;
+    
+    gap: 80px;
+}
+.places__place__kiev{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 35px;
+    width: 99.69%;
+    height: 18.44%;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin: 0%;
+    padding: 0%;
+}
+    .places__place__kiev-img{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 48px;
+    }
+    .places__place__kiev-title{
+        Width:460px;
+        Height:152px;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 900;
+        font-style: normal;
+        font-variation-settings:
+        "slnt" 0;
+        font-size:72px;
+        Line-height:76px;
+        margin: 0%;
+        padding: 0%;
+    }
+    .places__place__kiev__website{
+        padding-top: 107px;
+        padding-bottom: 48px;
+        width: 456px;
+        height: 45px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .places__place__kiev__paragraphs{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 25px;
+    }
+
+    .places__place__kiev__paragraphs-item{
+        width: 484px;
+        max-width: 232;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-variation-settings:
+        "slnt" 0;
+        font-size: 18px;
+        line-height: 29.34px;
+        margin: 0%;
+    }
+    .places__place__kiev__website__url-heading{
+        line-height: 14.52px;
+        font-size: 12px;
+        letter-spacing: 12%;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-variation-settings:
+        "slnt" 0;
+        margin: 0%;
+        color: #AAAAAA;
+    }
+    .places__place__kiev__website__artist{
+        font-size: 18px;
+        line-height: 22px;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-variation-settings:
+        "slnt" 0;
+        margin: 0%;
+    }
+    .places__place__kiev__image{
+        Width:460px;
+        max-Height:460px;
+    }
+    .places__place__kiev__button{
+        width: 355px;
+        height:48px;
+        padding:13px 20px 13px 20px;
+        border-radius: 4px;
+        margin: 0%;
+        background-color: #0278FE;
+        font-size:18px;
+        Line-height:21.78px;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        font-variation-settings:
+        "slnt" 0;
+        color: #ffffff;
+        text-align: left;
+    }
+    .places__place__kiev__button__paragraph{
+        font-size:18px;
+        Line-height:21.78px;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        font-variation-settings:
+        "slnt" 0;
+        margin: 0%;
+        padding: 0%;
+        color: #ffffff;
+        width:hug(315px) ;
+        height: hug(22px);
+        text-align: left;
+        
+    }
+
+
+.places__place-Criccieth{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 35px;
+    width: 99.69%;
+    height: 18.44%;
+    display: flex;
+    justify-content: space-between;
+}
+    .places__place__Criccieth-img{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 48px;
+    }
+    .places__place__Criccieth-title{
+        Width:460px;
+        Height:152px;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 900;
+        font-style: normal;
+        font-variation-settings:
+        "slnt" 0;
+        font-size:72px;
+        Line-height:76px;
+        margin: 0%;
+        padding: 0%;
+    }
+    .places__place__Criccieth__website{
+        padding-top: 85px;
+        padding-bottom: 48px;
+        width: 456px;
+        height: 67px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .places__place__Criccieth__paragraphs{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 25px;
+    }
+
+    .places__place__Criccieth__paragraphs-item{
+        width: 484px;
+        max-width: 232;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-variation-settings:
+        "slnt" 0;
+        font-size: 18px;
+        line-height: 29.34px;
+        margin: 0%;
+    }
+    .places__place__Criccieth__website__url-heading{
+        line-height: 14.52px;
+        font-size: 12px;
+        letter-spacing: 12%;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-variation-settings:
+        "slnt" 0;
+        margin: 0%;
+        color: #AAAAAA;
+    }
+    .places__place__Criccieth__website__artist{
+        font-size: 18px;
+        line-height: 22px;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-variation-settings:
+        "slnt" 0;
+        margin: 0%;
+    }
+    .places__place__Criccieth__image{
+        Width:460px;
+        max-Height:460px;
+    }
+    .places__place__Criccieth__button{
+        width: 355px;
+        height:48px;
+        padding:13px 20px 13px 20px;
+        border-radius: 4px;
+        margin: 0%;
+        background-color: #0278FE;
+        font-size:18px;
+        Line-height:21.78px;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        font-variation-settings:
+        "slnt" 0;
+        color: #ffffff;
+        text-align: left;
+    }
+    .places__place__Criccieth__button__paragraph{
+        font-size:18px;
+        Line-height:21.78px;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        font-variation-settings:
+        "slnt" 0;
+        margin: 0%;
+        padding: 0%;
+        color: #ffffff;
+        width:hug(315px) ;
+        height: hug(22px);
+        text-align: left;
+        
+    }
+.places__place-Berea{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 35px;
+    width: 99.69%;
+    height: 17.69%;
+    display: flex;
+    justify-content: space-between;
+}
+    .places__place__Berea-img{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 48px;
+    }
+    .places__place__Berea-title{
+        Width: 584px;
+        Height:152px;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 900;
+        font-style: normal;
+        font-variation-settings:
+        "slnt" 0;
+        font-size:72px;
+        Line-height:76px;
+        margin: 0%;
+        padding: 0%;
+        margin-right: -100px;
+    }
+    .places__place__Berea__website{
+        padding-top: 107px;
+        padding-bottom: 48px;
+        width: 456px;
+        height: 45px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .places__place__Berea__paragraphs{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 25px;
+    }
+
+    .places__place__Berea__paragraphs-item{
+        min-width: 484px;
+        max-width: 232;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-variation-settings:
+        "slnt" 0;
+        font-size: 18px;
+        line-height: 29.34px;
+        margin: 0%;
+    }
+    .places__place__Berea__website__url-heading{
+        line-height: 14.52px;
+        font-size: 12px;
+        letter-spacing: 12%;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-variation-settings:
+        "slnt" 0;
+        margin: 0%;
+        color: #AAAAAA;
+    }
+    .places__place__Berea__website__artist{
+        font-size: 18px;
+        line-height: 22px;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-variation-settings:
+        "slnt" 0;
+        margin: 0%;
+    }
+    .places__place__Berea__image{
+        Width:460px;
+        max-Height:460px;
+    }
+    .places__place__Berea__button{
+        width: 355px;
+        height:48px;
+        padding:13px 20px 13px 20px;
+        border-radius: 4px;
+        margin: 0%;
+        background-color: #0278FE;
+        font-size:18px;
+        Line-height:21.78px;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        font-variation-settings:
+        "slnt" 0;
+        color: #ffffff;
+        text-align: left;
+    }
+    .places__place__Berea__button__paragraph{
+        font-size:18px;
+        Line-height:21.78px;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        font-variation-settings:
+        "slnt" 0;
+        margin: 0%;
+        padding: 0%;
+        color: #ffffff;
+        width:hug(315px) ;
+        height: hug(22px);
+        text-align: left;
+        
+    }
+.places__place-Muramvya{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 35px;
+    width: 99.69%;
+    height: 20.97%;
+    display: flex;
+    justify-content: space-between;
+}
+    .places__place__Muramvya-img{
+
+    }
+    .places__place__Muramvya-title{
+        Width:460px;
+        Height:152px;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 900;
+        font-style: normal;
+        font-variation-settings:
+        "slnt" 0;
+        font-size:72px;
+        Line-height:76px;
+        margin: 0%;
+        padding: 0%;
+        padding-bottom: 48px;
+    }
+    .places__place__Muramvya__website{
+        padding-top: 107px;
+        padding-bottom: 48px;
+        width: 456px;
+        height: 45px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .places__place__Muramvya__paragraphs{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 25px;
+    }
+
+    .places__place__Muramvya__paragraphs-item{
+        width: 484px;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-variation-settings:
+        "slnt" 0;
+        font-size: 18px;
+        line-height: 29.34px;
+        margin: 0%;
+    }
+    .places__place__Muramvya__website__url-heading{
+        line-height: 14.52px;
+        font-size: 12px;
+        letter-spacing: 12%;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-variation-settings:
+        "slnt" 0;
+        margin: 0%;
+        color: #AAAAAA;
+    }
+    .places__place__Muramvya__website__artist{
+        font-size: 18px;
+        line-height: 22px;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-variation-settings:
+        "slnt" 0;
+        margin: 0%;
+    }
+    .places__place__Muramvya__image{
+        Width:460px;
+        max-Height:460px;
+        padding-bottom: 48px;
+    }
+    .places__place__Muramvya__button{
+        width: 355px;
+        height:48px;
+        padding:13px 20px 13px 20px;
+        border-radius: 4px;
+        margin: 0%;
+        background-color: #0278FE;
+        font-size:18px;
+        Line-height:21.78px;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        font-variation-settings:
+        "slnt" 0;
+        color: #ffffff;
+        text-align: left;
+    }
+    .places__place__Muramvya__button__paragraph{
+        font-size:18px;
+        Line-height:21.78px;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        font-variation-settings:
+        "slnt" 0;
+        margin: 0%;
+        padding: 0%;
+        color: #ffffff;
+        width:hug(315px) ;
+        height: hug(22px);
+        text-align: left;
+        
+    }
+
+.places__place-Piedecuesta{
+    display: flex;
+    flex-direction: row;
+    width: 99.69%;
+    height: 17.69%;
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+}
+    .places__place__Piedecuesta-img{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 48px;
+    }
+    .places__place__Piedecuesta-title{
+        Width:460px;
+        Height:152px;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 900;
+        font-style: normal;
+        font-variation-settings:
+        "slnt" 0;
+        font-size:72px;
+        Line-height:76px;
+        margin: 0%;
+        padding: 0%;
+    }
+    .places__place__Piedecuesta__website{
+        padding-top: 107px;
+        padding-bottom: 48px;
+        width: 456px;
+        height: 45px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .places__place__Piedecuesta__paragraphs{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 25px;
+    }
+
+    .places__place__Piedecuesta__paragraphs-item{
+        width: 484px;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-variation-settings:
+        "slnt" 0;
+        font-size: 18px;
+        line-height: 29.34px;
+        margin: 0%;
+    }
+    .places__place__Piedecuesta__website__url-heading{
+        line-height: 14.52px;
+        font-size: 12px;
+        letter-spacing: 12%;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-variation-settings:
+        "slnt" 0;
+        margin: 0%;
+        color: #AAAAAA;
+    }
+    .places__place__Piedecuesta__website__artist{
+        font-size: 18px;
+        line-height: 22px;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-variation-settings:
+        "slnt" 0;
+        margin: 0%;
+    }
+    .places__place__Piedecuesta__image{
+        Width:460px;
+        max-Height:460px;
+    }
+    .places__place__Piedecuesta__button{
+        width: 355px;
+        height:48px;
+        padding:13px 20px 13px 20px;
+        border-radius: 4px;
+        margin: 0%;
+        background-color: #0278FE;
+        font-size:18px;
+        Line-height:21.78px;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        font-variation-settings:
+        "slnt" 0;
+        color: #ffffff;
+        text-align: left;
+    }
+    .places__place__Piedecuesta__button__paragraph{
+        font-size:18px;
+        Line-height:21.78px;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        font-variation-settings:
+        "slnt" 0;
+        margin: 0%;
+        padding: 0%;
+        color: #ffffff;
+        width:hug(315px) ;
+        height: hug(22px);
+        text-align: left;
+        
+    }   
+}
