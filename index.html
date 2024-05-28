@@ -7,8 +7,8 @@
     <meta name="author" content="jose pinto">
     <meta name="description" content="pagina web">
     <meta name="keywords" content="practicum-art-gallery, sitio-web">
-    <link rel="stylesheet" href="/project 4 html/body.css" />
-    <link rel="stylesheet" href="favicon.ico"/>
+    <link rel="stylesheet" href="./body.css" />
+    <link rel="stylesheet" href="./images/logo.png"/>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,48 +21,50 @@
     <div class="page">
       <header class="header">
         <div class="header__logo">
-          <img class="header__logo-image" src="/project 4 html/images/logo.png">
-          <h1 class="header__logo-title">ART GALLERY</h1>
-        </div>
-        <div class="header__lead">
-          <h2 class="header__lead__title">De patria a patria</h2>
-          <h3 class="header__lead__subtitle">Un viaje epico de kentucky a burundi pasando por Gales y Ucrania</h3>
-          <img src="/project 4 html/images/header__image.png" class="header__lead__image">
+          <img class="header__logo-image" src="./images/logo.png">
+          <h1 class="header__logo-title">PRACTICUM ART GALLERY</h1>
         </div>
       </header>
       <main class="content">
+        <section class="lead" id="lead">
+          <div class="lead__content">
+            <h2 class="lead__title">De patria a patria</h2>
+            <h3 class="lead__subtitle">Un viaje epico de kentucky a burundi pasando por Gales y Ucrania</h3>
+            <img class="lead__image" src="./images/header__image.png" >
+          </div>
+        </section>
         <section class="intro" id="intro">
           <div class="intro__content">
-            <h2 class="intro__content-title">Conoce un poco mejor los lugares de los que proceden tus colegas en linea</h2>
-            <div class="intro__content-phrase">
+            <h2 class="intro__title">Conoce un poco mejor los lugares de los que proceden tus colegas en linea</h2>
+            <div class="intro__phrase">
               <p>todo ser humano es un artista, un ser de la libertad, llamda a participar en al transformacion y reforma de las condiciones, el pensamiento y las estructuras que conforman e influyen en nuestras vidas.</p>
             </div>
-            <div class="intro__content-author">
+            <div class="intro__author">
               <p>-- Joseph Beuys</p>
             </div>
-            <div class="intro__content-text">
+            <div class="intro__text">
               <p>La ciudad de practicum ha reunido a profesionales de diferentes rincones del mundo. Hoy, la galeria de Arte Practicum se enorgullece de presentar historias y fotografias de algunas de las personas que dedican su tiempo y esfuerzo a hacer que los futuras profesionales de la tecnologia de esta ciudad se sientan como en casa. Cada uno de nosotros tiene una historia Unica sobre el lugar del que procede. No dudes en añadir a nuestra colección tu propia historia y una obra de arte visual dedicada a tu ciudad natal. No importa de donde seas, Nos alegra que seas nuestro vecino.</p>
             </div>
           </div>
         </section>
         <section class="photo-grid" id="photo-grid">
           <div class="photo-grid__content">
-            <img src="/project 4 html/images/imagen-menu-a..png" alt="" class="photo-grid__item">
-            <img src="/project 4 html/images/imagen-menu-b.png" alt="" class="photo-grid__item">
-            <img src="/project 4 html/images/imagen-menu-c.png" alt="" class="photo-grid__item">
-            <img src="/project 4 html/images/imagen-menu-d.png" alt="" class="photo-grid__item">
-            <img src="/project 4 html/images/imagen-menu-e.png" alt="" class="photo-grid__item">
-            <img src="/project 4 html/images/imagen-menu-f.png" alt="" class="photo-grid__item">
-            <img src="/project 4 html/images/imagen-menu-g.png" alt="" class="photo-grid__item">
-            <img src="/project 4 html/images/imagen-menu-h.png" alt="" class="photo-grid__item">
+            <img src="/web_project_homeland/images/imagen-menu-a..png" alt="" class="photo-grid__item">
+            <img src="/web_project_homeland/images/imagen-menu-b.png" alt="" class="photo-grid__item">
+            <img src="/web_project_homeland/images/imagen-menu-c.png" alt="" class="photo-grid__item">
+            <img src="/web_project_homeland/images/imagen-menu-d.png" alt="" class="photo-grid__item">
+            <img src="/web_project_homeland/images/imagen-menu-e.png" alt="" class="photo-grid__item">
+            <img src="/web_project_homeland/images/imagen-menu-f.png" alt="" class="photo-grid__item">
+            <img src="/web_project_homeland/images/imagen-menu-g.png" alt="" class="photo-grid__item">
+            <img src="/web_project_homeland/images/imagen-menu-h.png" alt="" class="photo-grid__item">
           </div>
         </section>
         <section class="places" id="places">
           <div class="places__place__kiev">
             <div class="places__place__kiev-img">
               <h2 class="places__place__kiev-title">Kiev, Ucrania</h2>
-              <img src="/project 4 html/images/image_Kiev.png" alt="" class="places__place__kiev__image">
-              <button class="places__place__kiev__button">Compra esta obra de arte como NFT
+              <img src="/web_project_homeland/images/image_Kiev.png" alt="" class="places__place__kiev__image">
+              <button class="places__place__kiev__button"><p class="places__place__kiev__button__paragraph">Compra esta obra de arte como NFT</p>
               </button>
             </div>
             <div class="places__place__kiev-content">
@@ -72,13 +74,14 @@
               </div>
               <div class="places__place__kiev__paragraphs">
                 <p class="places__place__kiev__paragraphs-item">Kiev (o Kyiv), la capital de Ucrania, es una gran ciudad situada a orillas del río Dniéper. Por supuesto, nadie en su sano juicio se bañaría en el río, a menos que se haya criado aquí, en cuyo caso probablemente lo haya intentado en algún momento. Los veranos son calurosos aquí, y los inviernos con fuertes corrientes de aire, pero el otoño y la primavera son absolutamente increibles.</p>
-                <p class="places__place__kiev__paragraphs-item">La ciudad en sí es una mezcla de arquitectura prerrevolucionaria, de posguerra y soviética, toda ella salpicada de balcones modificados. Si te encuentras en la orilla derecha del Dniéper, el paisaje es dificil de atravesar para las personas en bicicleta y las que llevan tacones. Sin embargo, la orilla izquierda es considerada mucho menos interesante y prestigiosa, incluso por la gente que vive en las afueras de la derecha.</p></div>
+                <p class="places__place__kiev__paragraphs-item">La ciudad en sí es una mezcla de arquitectura prerrevolucionaria, de posguerra y soviética, toda ella salpicada de balcones modificados. Si te encuentras en la orilla derecha del Dniéper, el paisaje es dificil de atravesar para las personas en bicicleta y las que llevan tacones. Sin embargo, la orilla izquierda es considerada mucho menos interesante y prestigiosa, incluso por la gente que vive en las afueras de la derecha.</p>
               </div>
             </div>
-          <div class="places__place-Criccieth">
+          </div>
+          <div class="places__place__Criccieth">
             <div class="places__place__Criccieth-img">
               <h2 class="places__place__Criccieth-title">Criccieth, Gales</h2>
-              <img src="/project 4 html/images/image_Criccieth.png" alt="" class="places__place__Criccieth__image">
+              <img src="/web_project_homeland/images/image_Criccieth.png" alt="" class="places__place__Criccieth__image">
               <button class="places__place__Criccieth__button"><p class="places__place__Criccieth__button__paragraph">Compra esta obra de arte como NFT
               </p></button>
             </div>
@@ -93,11 +96,11 @@
               </div>
             </div>
           </div>
-          <div class="places__place-Berea">
+          <div class="places__place__Berea">
             <div class="places__place__Berea-img">
               <h2 class="places__place__Berea-title">Berea, Estados Unidos</h2>
-              <img src="/project 4 html/images/image_Berea.png" alt="" class="places__place__Berea__image">
-              <button class="places__place__Berea__button"><p class="places__place__Bereabutton__paragraph">Compra esta obra de arte como NFT
+              <img src="/web_project_homeland/images/image_Berea.png" alt="" class="places__place__Berea__image">
+              <button class="places__place__Berea__button"><p class="places__place__Berea__button__paragraph">Compra esta obra de arte como NFT
               </p></button>
             </div>
             <div class="places__place-content">
@@ -110,10 +113,10 @@
               </div>
             </div>
           </div>
-          <div class="places__place-Muramvya">
+          <!--<div class="places__place__Muramvya">
             <div class="places__place__Muramvya-img">
               <h2 class="places__place__Muramvya-title">Muramvya, Burundi</h2>
-              <img src="/project 4 html/images/image_Muramvya.png" alt="" class="places__place__Muramvya__image">
+              <img src="/web_project_homeland/images/image_Muramvya.png" alt="" class="places__place__Muramvya__image">
               <button class="places__place__Muramvya__button"><p class="places__place__Muramvya__button__paragraph">Compra esta obra de arte como NFT
               </p></button>
             </div>
@@ -128,10 +131,10 @@
               </div>
             </div>
           </div>
-          <div class="places__place-Piedecuesta">
+          <div class="places__place__Piedecuesta">
             <div class="places__place__Piedecuesta-img">
               <h2 class="places__place__Piedecuesta-title">Piedecuesta, Colombia</h2>
-              <img src="/project 4 html/images/image_piedecuesta.jpg" alt="" class="places__place__Piedecuesta__image">
+              <img src="/web_project_homeland/images/image_piedecuesta.jpg" alt="" class="places__place__Piedecuesta__image">
               <button class="places__place__Piedecuesta__button"><p class="places__place__Piedecuesta__button__paragraph">Compra esta obra de arte como NFT
               </p></button>
             </div>
@@ -144,9 +147,9 @@
                 <p class="places__place__Piedecuesta__paragraphs-item">Piedecuesta está situada en el valle del Río de Oro. Uno de sus hitos más notables es el Cerro de la Cantera, en cuya cima se encuentra una gran estatua de la Virgen María (conocida localmente como la Virgen de Cantera). Otros puntos de interés incluyen el valle de Guatiguara, la Meseta de los Santos, parte del Cañón del Chicamocha y la Meseta de Ruitoque.</p>
               </div>
             </div>
-          </div>
+          </div>-->
         </section>
-        <section class="cover" id="cover">
+        <!--<section class="cover" id="cover">
           <div class="cover__content">
             <h3 class="cover__content__title">Visitanos</h3>
             <div class="cover__content__text">
@@ -157,11 +160,11 @@
             <button  class="cover__content__button"><p class="cover__content__button-text">Comprar entradas</p></button>
           </div> 
 
-        </section>
+        </section>-->
       </main>
-      <footer class="footer">
+      <!--<footer class="footer">
         <p class="footer__copyright">© 2024 Jose Pinto</p>
-      </footer>
+      </footer>-->
     </div>
   </body>
-</html>
+</html>   
