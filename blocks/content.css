@@ -1,0 +1,14 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 92px;
+}
+@media screen and (max-width: 320px){
+    .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 0px;
+    }
+}

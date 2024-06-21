@@ -30,3 +30,27 @@
     margin:0;
     font-size:14.55px ;
 }
+@media screen and (max-width:320px){
+    .header__logo{
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        height: auto;
+        margin: auto;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 22.45px;
+    }
+    .header__logo-image{
+        width: 23.7px;
+        height: 23.7px;
+    }
+    .header__logo-title{
+        max-width:270px;
+        height: 14.55px;
+        margin:0;
+        font-size:14.55px ;
+    }
+}

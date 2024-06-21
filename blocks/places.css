@@ -1,5 +1,4 @@
 .places{
-    padding-top: 92px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -8,22 +7,29 @@
     background-color: #2A2C2F;
     color: #ffffff;
 }
-.places__place__kiev{
-    max-width: 984px;
-    min-height: 756px;
+.places__place{
+    max-width: 987px;
+    min-height: auto;
     display: flex;
     flex-direction:row;
     align-content: space-between;
-    gap: 4.0%;
+    gap: 40px;
+    opacity: 80%;
 }
-.places__place__kiev-img{
-    max-width: 48.11%;
+.places__place:hover{
+    opacity: 100%;
+}
+.places__place-img{
+    max-width: 46.60%;
     max-height: 756px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 48px;
 }
-.places__place__kiev-title{
+.places__place-title{
     max-width: 460px;
     max-height: 152px;
-    padding-bottom: 48px;
     font-size: 72px;
     line-height: 76px;
     font-family: "Inter", sans-serif;
@@ -34,52 +40,47 @@
     "slnt" 0;
     margin: 0%;
 }
-.places__place__kiev__image{
+.places__place__image{
     max-width: 100%;
     max-height: 460px;
-    padding-bottom: 48px;
 }
-.places__place__kiev__button{
+.places__place__button{
     max-width: 355px;
     max-height: 48px;
     background-color: #0278FE;
     color: #FFFFFF;
-    padding: 13px 20px 13px 20px;
+    padding: 13px 18px 13px 18px;
     margin: 0%;
     border-radius:4px ;
-}
-.places__place__kiev__button__paragraph{
-    max-width:315px ;
-    height: 22px;
     line-height:21.78px;
     font-size: 18px;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 400;
+    font-weight: 600;
     font-style: normal;
     font-variation-settings:
     "slnt" 0;
-    font-style: none;
-    font-display: none;
-    text-decoration: none;
-    
 }
+.places__place__button:hover{
+    cursor: pointer;
+}
+
 /* comentarle al profe que
 el font weight quedo en 400 
 debido a que en 600 no cuadra
 como se muestra en el ejemplo*/
 
-.places__place__kiev-content{
-    max-width: 48.11%;
+.places__place-content{
+    max-width: 49.03%;
     min-height: 756px;
 
 }
-.places__place__kiev__website{
+.places__place__website{
     max-width: 456px;
     max-height: 45px;
     padding-top: 107px;
 }
-.places__place__kiev__website__url-heading{
+.places__place__website__url-heading{
     max-width: 58px;
     max-height: 15px;
     line-height: 14.52px;
@@ -93,7 +94,7 @@ como se muestra en el ejemplo*/
     "slnt" 0;
 }
 /*preguntar al profesor letter*/
-.places__place__kiev__website__artist{
+.places__place__website__artist{
     padding-top: 8px;
     max-width:456px;
     max-height: 22px;
@@ -106,7 +107,7 @@ como se muestra en el ejemplo*/
     font-variation-settings:
     "slnt" 0;
 }
-.places__place__kiev__paragraphs{
+.places__place__paragraphs{
     padding-top: 48px;
     max-width:484px ;
     min-height: 460px;
@@ -114,9 +115,9 @@ como se muestra en el ejemplo*/
     flex-direction: column;
     gap: 25px;
 }
-.places__place__kiev__paragraphs-item{
+.places__place__paragraphs-item{
     max-width: 484px;
-    min-height: 232px;
+    height:auto ;
     font-size: 18px;
     line-height: 29.34px;
     font-family: "Inter", sans-serif;
@@ -125,143 +126,10 @@ como se muestra en el ejemplo*/
     font-style: normal;
     font-variation-settings:
     "slnt" 0;
-}
-/*div*/
-.places__place__Criccieth{
-    max-width: 984px;
-    min-height: 756px;
-    display: flex;
-    flex-direction:row;
-    align-content: space-between;
-    gap: 4.0%;
-}
-.places__place__Criccieth-img{
-    max-width: 48.11%;
-    max-height: 756px;
-}
-.places__place__Criccieth-title{
-    max-width: 460px;
-    max-height: 152px;
-    padding-bottom: 48px;
-    font-size: 72px;
-    line-height: 76px;
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 900;
-    font-style: normal;
-    font-variation-settings:
-    "slnt" 0;
-    margin: 0%;
-}
-.places__place__Criccieth__image{
-    max-width: 100%;
-    max-height: 460px;
-    padding-bottom: 48px;
-}
-.places__place__Criccieth__button{
-    max-width: Hug (355px);
-    max-height: Hug (48px);
-    background-color: #0278FE;
-    color: #FFFFFF;
-    padding: 13px 20px 13px 20px;
-    margin: 0%;
-    border-radius:4px ;
-}
-.places__place__Criccieth__button__paragraph{
-    max-width:315px ;
-    height: 22px;
-    line-height:21.78px;
-    font-size: 18px;
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-variation-settings:
-    "slnt" 0;
-    font-style: none;
-    font-display: none;
-    text-decoration: none;
-    
-}
-/* comentarle al profe que
-el font weight quedo en 400 
-debido a que en 600 no cuadra
-como se muestra en el ejemplo*/
-
-.places__place__Criccieth-content{
-    max-width: 48.11%;
-    min-height: 756px;
-
-}
-.places__place__Criccieth__website{
-    max-width: 456px;
-    max-height: 45px;
-    padding-top: 107px;
-}
-.places__place__Criccieth__website__url-heading{
-    max-width: 58px;
-    max-height: 15px;
-    line-height: 14.52px;
-    font-size: 12px;
-    color: #AAAAAA;
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-variation-settings:
-    "slnt" 0;
-}
-/*preguntar al profesor letter*/
-.places__place__Criccieth__website__artist{
-    padding-top: 8px;
-    max-width:456px;
-    max-height: 22px;
-    font-size: 18px;
-    line-height: 22px;
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-variation-settings:
-    "slnt" 0;
-}
-.places__place__Criccieth__paragraphs{
-    padding-top: 48px;
-    max-width:484px ;
-    min-height: 460px;
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-}
-.places__place__Criccieth__paragraphs-item{
-    max-width: 484px;
-    min-height: 232px;
-    font-size: 18px;
-    line-height: 29.34px;
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-variation-settings:
-    "slnt" 0;
-}
-/*div*/
-.places__place__Berea{
-    max-width: 984px;
-    min-height: 756px;
-    display: flex;
-    flex-direction:row;
-    align-content: space-between;
-    gap: 4.0%;
-}
-.places__place__Berea-img{
-    max-width: 48.11%;
-    max-height: 756px;
 }
 .places__place__Berea-title{
     width: 584px;
     max-height: 152px;
-    padding-bottom: 48px;
     font-size: 72px;
     line-height: 76px;
     font-family: "Inter", sans-serif;
@@ -271,99 +139,83 @@ como se muestra en el ejemplo*/
     font-variation-settings:
     "slnt" 0;
     margin: 0%;
-    margin-right: -84px;
 }
-.places__place__Berea__image{
-    max-width: 100%;
-    max-height: 460px;
+
+@media screen and (max-width:768px){
+    
+.places__place{
+    max-width: 987px;
+    min-height: auto;
+    display: flex;
+    flex-direction:row;
+    align-content: space-between;
+    gap: 18px;
+    opacity: 80%;
+}
+.places__place-img{
+    max-width: 460px;
+    max-height: 576px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 0px;
+}
+.places__place__image{
+    max-width: 340px;
+    max-height: 340px;
     padding-bottom: 48px;
 }
-.places__place__Berea__button{
-    max-width: Hug (355px);
-    max-height: Hug (48px);
+.places__place__button{
+    width: 355px;
+    max-height: 48px;
     background-color: #0278FE;
     color: #FFFFFF;
-    padding: 13px 20px 13px 20px;
+    padding: 13px 18px 13px 18px;
     margin: 0%;
     border-radius:4px ;
-}
-.places__place__Berea__button__paragraph{
-    max-width:315px ;
-    height: 22px;
     line-height:21.78px;
     font-size: 18px;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 400;
+    font-weight: 600;
     font-style: normal;
     font-variation-settings:
     "slnt" 0;
-    font-style: none;
-    font-display: none;
-    text-decoration: none;
-    
 }
-/* comentarle al profe que
-el font weight quedo en 400 
-debido a que en 600 no cuadra
-como se muestra en el ejemplo */
-
-.places__place__Berea-content{
-    max-width: 48.11%;
-    min-height: 756px;
-
+.places__place__Berea-title{
+    max-width: 340px;
+    max-height: 152px;
+    font-size: 42px;
+    line-height: 46px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0;
+    margin: 0%;
+    padding-bottom: 2px;
 }
-.places__place__Berea__website{
+.places__place-title{
+    max-width: 340px;
+    max-height: 152px;
+    font-size: 42px;
+    line-height: 46px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0;
+    margin: 0%;
+    padding-bottom: 46px;
+}
+.places__place__website{
     max-width: 456px;
     max-height: 45px;
-    padding-top: 107px;
+    padding-top: 0;
 }
-.places__place__Berea__website__url-heading{
-    max-width: 58px;
-    max-height: 15px;
-    line-height: 14.52px;
-    font-size: 12px;
-    color: #AAAAAA;
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-variation-settings:
-    "slnt" 0;
 }
-/*preguntar al profesor letter*/
-.places__place__Berea__website__artist{
-    padding-top: 8px;
-    max-width:456px;
-    max-height: 22px;
-    font-size: 18px;
-    line-height: 22px;
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-variation-settings:
-    "slnt" 0;
-}
-.places__place__Berea__paragraphs{
-    padding-top: 48px;
-    max-width:484px ;
-    min-height: 460px;
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-}
-.places__place__Berea__paragraphs-item{
-    max-width: 484px;
-    min-height: 232px;
-    font-size: 18px;
-    line-height: 29.34px;
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-variation-settings:
-    "slnt" 0;
-}
-/*div*/
+@media screen and (max-width:320px){
 
+}
