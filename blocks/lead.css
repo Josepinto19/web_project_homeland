@@ -24,7 +24,7 @@
     "slnt" 0;
 }
 .lead__subtitle{
-    width:720px ;
+    max-width:720px ;
     height: 72px;
     padding-top: 32px;
     padding-bottom: 64px;
@@ -43,6 +43,7 @@
     width: 100%;
     height:615px ;
     background-image: unset;
+    object-fit: cover;
 
 }
 @media screen and (max-width:320px){

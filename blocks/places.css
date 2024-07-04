@@ -1,33 +1,43 @@
-.places{
+.places {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     gap: 80px;
     align-items: center;
-    background-color: #2A2C2F;
+    background-color: #2a2c2f;
     color: #ffffff;
-}
-.places__place{
+  }
+  .places__place {
     max-width: 987px;
     min-height: auto;
-    display: flex;
-    flex-direction:row;
-    align-content: space-between;
+    /* display: flex;
+    flex-direction: row;
+    align-content: space-between; */
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    grid-template-rows: auto 400px auto;
     gap: 40px;
     opacity: 80%;
-}
-.places__place:hover{
+  }
+  
+  /* @media screen and (max-width: 800px) {
+    .places__place {
+      grid-template-columns: 300px 1fr;
+    }
+  } */
+  
+  .places__place:hover {
     opacity: 100%;
-}
-.places__place-img{
-    max-width: 46.60%;
+  }
+  .places__place-img {
+    max-width: 46.6%;
     max-height: 756px;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-between; */
     gap: 48px;
-}
-.places__place-title{
+  }
+  .places__place-title {
     max-width: 460px;
     max-height: 152px;
     font-size: 72px;
@@ -36,67 +46,63 @@
     font-optical-sizing: auto;
     font-weight: 900;
     font-style: normal;
-    font-variation-settings:
-    "slnt" 0;
+    font-variation-settings: "slnt" 0;
     margin: 0%;
-}
-.places__place__image{
+  }
+  .places__place__image {
     max-width: 100%;
     max-height: 460px;
-}
-.places__place__button{
+  }
+  .places__place__button {
     max-width: 355px;
     max-height: 48px;
-    background-color: #0278FE;
-    color: #FFFFFF;
+    background-color: #0278fe;
+    color: #ffffff;
     padding: 13px 18px 13px 18px;
     margin: 0%;
-    border-radius:4px ;
-    line-height:21.78px;
+    border-radius: 4px;
+    line-height: 21.78px;
     font-size: 18px;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
-    font-variation-settings:
-    "slnt" 0;
-}
-.places__place__button:hover{
+    font-variation-settings: "slnt" 0;
+  }
+  .places__place__button:hover {
     cursor: pointer;
-}
-
-/* comentarle al profe que
-el font weight quedo en 400 
-debido a que en 600 no cuadra
-como se muestra en el ejemplo*/
-
-.places__place-content{
+  }
+  
+  /* comentarle al profe que
+  el font weight quedo en 400 
+  debido a que en 600 no cuadra
+  como se muestra en el ejemplo*/
+  
+  .places__place-content {
     max-width: 49.03%;
     min-height: 756px;
-
-}
-.places__place__website{
+  }
+  .places__place__website {
     max-width: 456px;
     max-height: 45px;
     padding-top: 107px;
-}
-.places__place__website__url-heading{
+  }
+  .places__place__website__url-heading {
     max-width: 58px;
     max-height: 15px;
     line-height: 14.52px;
     font-size: 12px;
-    color: #AAAAAA;
+    color: #aaaaaa;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    font-variation-settings:
-    "slnt" 0;
-}
-/*preguntar al profesor letter*/
-.places__place__website__artist{
+    font-variation-settings: "slnt" 0;
+  }
+  /*preguntar al profesor letter*/
+  .places__place__website__artist {
     padding-top: 8px;
-    max-width:456px;
+    max-width: 456px;
     max-height: 22px;
     font-size: 18px;
     line-height: 22px;
@@ -104,30 +110,32 @@ como se muestra en el ejemplo*/
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    font-variation-settings:
-    "slnt" 0;
-}
-.places__place__paragraphs{
-    padding-top: 48px;
-    max-width:484px ;
+    font-variation-settings: "slnt" 0;
+  }
+  
+  .places__place__paragraphs {
+    max-width: 484px;
     min-height: 460px;
     display: flex;
     flex-direction: column;
     gap: 25px;
-}
-.places__place__paragraphs-item{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+  }
+  .places__place__paragraphs-item {
     max-width: 484px;
-    height:auto ;
+    height: auto;
     font-size: 18px;
     line-height: 29.34px;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    font-variation-settings:
-    "slnt" 0;
-}
-.places__place__Berea-title{
+    font-variation-settings: "slnt" 0;
+  }
+  .places__place__Berea-title {
     width: 584px;
     max-height: 152px;
     font-size: 72px;
@@ -136,86 +144,121 @@ como se muestra en el ejemplo*/
     font-optical-sizing: auto;
     font-weight: 900;
     font-style: normal;
-    font-variation-settings:
-    "slnt" 0;
+    font-variation-settings: "slnt" 0;
     margin: 0%;
-}
+  }
+  
+  @media screen and (max-width: 768px) {
+    .places__place {
+      max-width: 987px;
+      min-height: auto;
+      /* display: flex;
+      flex-direction: row;
+      align-content: space-between; */
+      grid-template-columns: 350px 1fr;
+      grid-template-rows: auto 350px auto;
+      gap: 18px;
+      opacity: 80%;
+    }
+    .places__place-img {
+      max-width: 460px;
+      max-height: 576px;
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+      gap: 0px;
+    }
+    .places__place__image {
+      max-width: 340px;
+      max-height: 340px;
+      padding-bottom: 48px;
+    }
+    .places__place__button {
+      width: 355px;
+      max-height: 48px;
+      background-color: #0278fe;
+      color: #ffffff;
+      padding: 13px 18px 13px 18px;
+      margin: 0%;
+      border-radius: 4px;
+      line-height: 21.78px;
+      font-size: 18px;
+      font-family: "Inter", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 600;
+      font-style: normal;
+      font-variation-settings: "slnt" 0;
+    }
+    .places__place__Berea-title {
+      max-width: 340px;
+      max-height: 152px;
+      font-size: 42px;
+      line-height: 46px;
+      font-family: "Inter", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 900;
+      font-style: normal;
+      font-variation-settings: "slnt" 0;
+      margin: 0%;
+      padding-bottom: 2px;
+    }
+    .places__place-title {
+      max-width: 340px;
+      max-height: 152px;
+      font-size: 42px;
+      line-height: 46px;
+      font-family: "Inter", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 900;
+      font-style: normal;
+      font-variation-settings: "slnt" 0;
+      margin: 0%;
+      padding-bottom: 46px;
+    }
+    .places__place__website {
+      max-width: 456px;
+      max-height: 45px;
+      padding-top: 0;
+    }
+  }
+  @media screen and (max-width: 650px) {
+    .places__place {
+      display: block;
+    }
+  }
+  @media screen and (max-width: 320px) {
+    .places {
+        padding-bottom: 64px;
+        gap: 17px;
+      }
+    .places__place-title{
+        max-width: 288px;
+        font-size: 32px;
+        margin: auto;
+        padding-bottom: 30px;
+    }
+    .places__place__website{
+        max-width: 288px;
+        margin: auto;
+    }
+    .places__place__image {
+        max-width: 320px;
+        max-height: 320px;
+        padding-bottom: 16px;
+    }
+    .places__place__paragraphs-item{
+        max-width: 288px;
+        margin: auto;
+    }
 
-@media screen and (max-width:768px){
-    
-.places__place{
-    max-width: 987px;
-    min-height: auto;
-    display: flex;
-    flex-direction:row;
-    align-content: space-between;
-    gap: 18px;
-    opacity: 80%;
-}
-.places__place-img{
-    max-width: 460px;
-    max-height: 576px;
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    gap: 0px;
-}
-.places__place__image{
-    max-width: 340px;
-    max-height: 340px;
-    padding-bottom: 48px;
-}
-.places__place__button{
-    width: 355px;
-    max-height: 48px;
-    background-color: #0278FE;
-    color: #FFFFFF;
-    padding: 13px 18px 13px 18px;
-    margin: 0%;
-    border-radius:4px ;
-    line-height:21.78px;
-    font-size: 18px;
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 600;
-    font-style: normal;
-    font-variation-settings:
-    "slnt" 0;
-}
-.places__place__Berea-title{
-    max-width: 340px;
-    max-height: 152px;
-    font-size: 42px;
-    line-height: 46px;
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 900;
-    font-style: normal;
-    font-variation-settings:
-    "slnt" 0;
-    margin: 0%;
-    padding-bottom: 2px;
-}
-.places__place-title{
-    max-width: 340px;
-    max-height: 152px;
-    font-size: 42px;
-    line-height: 46px;
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 900;
-    font-style: normal;
-    font-variation-settings:
-    "slnt" 0;
-    margin: 0%;
-    padding-bottom: 46px;
-}
-.places__place__website{
-    max-width: 456px;
-    max-height: 45px;
-    padding-top: 0;
-}
-}
-@media screen and (max-width:320px){
-
-}
+    .places__place__button {
+        width: 288px;
+        margin: auto;
+        display: flex;
+        justify-self: center;
+        font-size: 14px;
+      }
+    .places__place__Berea-title {
+        max-width: 288px;
+     }
+  }
