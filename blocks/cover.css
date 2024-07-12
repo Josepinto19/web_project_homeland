@@ -45,7 +45,7 @@
     font-style: normal;
     font-variation-settings:
     "slnt" 0;
-    max-Width:656px;
+    max-width:656px;
     Height:auto;
     margin: 0 auto;
     z-index: 2;
@@ -68,12 +68,12 @@
     z-index: 2;
 }
 .cover__content__button{
-    max-Width:198px;
+    max-width:198px;
     max-height:48px;
     padding-left: 541px;
     border-radius:4px;
-    Padding:13px 20px 13px 20px;
-    Gap:10px;
+    padding:13px 20px 13px 20px;
+    gap:10px;
     background-color: #0278FE;
     margin: 0 auto;
     z-index: 2;
@@ -171,9 +171,8 @@
     .cover__content__button-text{
         color: #FFFFFF;
         font-size:18px;
-        Line-height:21.78px;
+        line-height:21.78px;
         font-family: "Inter", sans-serif;
-
         font-weight: 600;
         font-style: normal;
         font-variation-settings:
